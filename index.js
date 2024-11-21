@@ -107,7 +107,7 @@ for(let i = 0; i < kucuktenBuyuge.length; i++) {
     enkucuk = kucuktenBuyuge[0]; 
   }    
 
-// 3b çözümü:
+// 3b çözümü: 
 
 ucetambolunenler = [];
 sayilar.forEach((sayi) => {
