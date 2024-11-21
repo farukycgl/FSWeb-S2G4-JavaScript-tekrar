@@ -72,7 +72,7 @@ function CemberinAlani(yaricap, pi) {
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
-//
+//commit sorunu için yorum eklendi.
 //commit sorunu için yorum eklendi.
 
 /* 	GÖREV 3:
