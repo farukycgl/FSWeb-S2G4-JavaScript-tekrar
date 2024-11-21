@@ -117,7 +117,7 @@ sayilar.forEach((sayi) => {
 } );
 
 
-// 3c çözümü:
+// 3c çözümü:  
 
 
 ucebolunenlerintoplami = 
