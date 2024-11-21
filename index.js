@@ -101,27 +101,51 @@ let ucetambolunenler,
 
 // 3a çözümü
 
-/* kodlar buraya */
+const kucuktenBuyuge = sayilar.sort((a,b)=> a-b);
+for(let i = 0; i < kucuktenBuyuge.length; i++) {
+    enbuyuk = kucuktenBuyuge[kucuktenBuyuge.length -1];
+    enkucuk = kucuktenBuyuge[0]; 
+  }    
 
 // 3b çözümü:
 
-/* kodlar buraya */
+ucetambolunenler = [];
+sayilar.forEach((sayi) => {
+  if(sayi % 3 === 0){
+    ucetambolunenler.push(sayi);
+  }
+} );
+
 
 // 3c çözümü:
 
-/* kodlar buraya */
+
+ucebolunenlerintoplami = 
+    ucetambolunenler.reduce((toplam, sayi) => toplam + sayi, 0); 
 
 // 3d çözümü
 
-/* kodlar buraya */
+besyuzdenkucuksayilar = [];
+besyuzdenkucuksayilar.push(sayilar.filter((sayi) => sayi < 500));
 
 // 3e çözümü
 
-/* kodlar buraya */
+siralisayilar = besyuzdenkucuksayilar.sort((a,b) => a-b);
 
 // 3f çözümü
 
-/* kodlar buraya */
+tekraredensayilar = [];
+const tekrarSayisi = sayilar.reduce((toplam, sayi) => {
+  toplam[sayi] = (toplam[sayi] || 0) + 1;
+  return toplam;
+},{});
+
+for(let sayi in tekrarSayisi) {
+  const tekrar = tekrarSayisi[sayi];
+  if(tekrar > 1) {
+    tekraredensayilar.push(`${sayi} sayısı ${tekrar} kere tekrar edilmiştir`);
+  }
+}
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
