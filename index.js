@@ -101,7 +101,7 @@ let ucetambolunenler,
 
 // 3a çözümü
 
-const kucuktenBuyuge = sayilar.sort((a,b)=> a-b);
+const kucuktenBuyuge = sayilar.sort((a,b)=> a-b);     
 for(let i = 0; i < kucuktenBuyuge.length; i++) {
     enbuyuk = kucuktenBuyuge[kucuktenBuyuge.length -1];
     enkucuk = kucuktenBuyuge[0]; 
@@ -147,7 +147,7 @@ for(let sayi in tekrarSayisi) {
   }
 }
 
-/*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
+/*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  .*/ 
 
 function sa() {
   console.log("Kodlar çalışıyor");
